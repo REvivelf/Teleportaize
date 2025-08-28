@@ -1,0 +1,6 @@
+{
+  "parent": "teleportaize:block/monolith_block",
+  "textures": {
+    "layer0": "teleportaize:item/monolith_item"
+  }
+}

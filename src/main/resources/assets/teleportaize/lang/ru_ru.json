@@ -1,0 +1,7 @@
+{
+  "item.teleportaize.monolith_item": "Путевой монолит",
+  "item.teleportaize.teleport_bell_item": "Колокол телепортации",
+  "item.teleportaize.teleport_book_item": "Книга телепортации",
+  "itemGroup.teleportaize.group": "Телепортация",
+  "block.teleportaize.monolith_block": "Путевой монолит блок"
+}

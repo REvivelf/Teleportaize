@@ -5,7 +5,9 @@
   "name": "Teleportaize",
   "description": "Small mod fo Minecraft 1.20.1 Fabric. This mode add teleportation system",
   "authors": [],
-  "contact": {},
+  "contact": {
+    "sources": "https://github.com/REvivelf/Teleportaize"
+  },
   "license": "MIT",
   "icon": "assets/teleportaize/icon.png",
   "environment": "client",

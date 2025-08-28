@@ -1,0 +1,7 @@
+{
+  "item.teleportaize.monolith_item": "Waystone monolith",
+  "item.teleportaize.teleport_bell_item": "Teleport bell",
+  "item.teleportaize.teleport_book_item": "Teleport book",
+  "itemGroup.teleportaize.group": "Teleportaize",
+  "block.teleportaize.monolith_block": "Waystone monolith block"
+}

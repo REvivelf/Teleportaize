@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "teleportaize:block/monolith_block"
+    }
+  }
+}
