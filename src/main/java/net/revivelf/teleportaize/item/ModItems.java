@@ -13,10 +13,6 @@ import net.revivelf.teleportaize.Teleportaize;
 
 
 public class ModItems {
-    public static final Item ITEM_MONOLITH = registerItem(
-            "monolith_item",
-            new Item(new FabricItemSettings())
-    );
     public static final Item ITEM_TELEPORT_BELL = registerItem(
             "teleport_bell_item",
             new Item(new FabricItemSettings())

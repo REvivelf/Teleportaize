@@ -13,10 +13,9 @@ import net.revivelf.teleportaize.Teleportaize;
 public class ModItemGroups {
     public static final String GROUP_NAME = "teleportaize_group";
     public static final ItemGroup TELEPORTAIZE_GROUP = FabricItemGroup.builder()
-            .icon(() -> new ItemStack(ModItems.ITEM_MONOLITH))
+            .icon(() -> new ItemStack(ModItems.ITEM_TELEPORT_BOOK))
             .displayName(Text.translatable("itemGroup.teleportaize.group"))
             .entries((context, entries) -> {
-                entries.add(ModItems.ITEM_MONOLITH);
                 entries.add(ModItems.ITEM_TELEPORT_BELL);
                 entries.add(ModItems.ITEM_TELEPORT_BOOK);
             })
