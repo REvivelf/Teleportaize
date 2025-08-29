@@ -11,13 +11,14 @@ import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.util.Identifier;
 import net.revivelf.teleportaize.Teleportaize;
+import net.revivelf.teleportaize.block.custom.MonolithBlock;
 import net.revivelf.teleportaize.item.ModItemGroups;
 import net.revivelf.teleportaize.item.ModItems;
 
 public class ModBlocks {
     public static final Block MONOLITH_BLOCK = registerBlock(
             "monolith_block",
-            new Block(FabricBlockSettings.create().strength(1.0F).luminance(10)),
+            new MonolithBlock(FabricBlockSettings.create().strength(1.0F).luminance(10)),
             RegistryKey.of(RegistryKeys.ITEM_GROUP, new Identifier(Teleportaize.MOD_ID, ModItemGroups.GROUP_NAME))
     );
 
